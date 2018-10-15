@@ -128,7 +128,7 @@ namespace WindowsFormsApplication1
 
 
 
-            //try {
+            try {
 
                 
 
@@ -188,11 +188,11 @@ namespace WindowsFormsApplication1
 
                 }
 
-            //}
-            //catch
-            //{
-            //    MessageBox.Show("ExamineTXT encountered an issue somewhere while trying to analyze your texts. The most common cause of this is trying to open your output file(s) while the program is still running. Did any of your input files move, or is your output file being opened/modified by another application?", "Error while transcoding", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
+            }
+            catch
+            {
+                MessageBox.Show("ExamineTXT encountered an issue somewhere while trying to analyze your texts. The most common cause of this is trying to open your output file(s) while the program is still running. Did any of your input files move, or is your output file being opened/modified by another application?", "Error while transcoding", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
             
         }
