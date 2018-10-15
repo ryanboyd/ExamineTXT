@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ExamineTXT Installer", "ExamineTXT Installer\ExamineTXT Installer.vdproj", "{A9DCE47F-7E5D-40D2-83DD-2508846DEDFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9DCE47F-7E5D-40D2-83DD-2508846DEDFC}.Debug|Default.ActiveCfg = Debug
+		{A9DCE47F-7E5D-40D2-83DD-2508846DEDFC}.Debug|Default.Build.0 = Debug
+		{A9DCE47F-7E5D-40D2-83DD-2508846DEDFC}.Release|Default.ActiveCfg = Release
+		{A9DCE47F-7E5D-40D2-83DD-2508846DEDFC}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
