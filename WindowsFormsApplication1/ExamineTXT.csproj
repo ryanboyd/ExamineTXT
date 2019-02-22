@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FD197B2D-2C43-46CA-8910-E9BCF51EEAA4}</ProjectGuid>
+    <ProjectGuid>{A4A1B61B-CB6D-40D8-B1DC-E2B2E9E1B632}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ExamineTXT</RootNamespace>
@@ -138,6 +138,10 @@
     <None Include="Resources\ASCII-Codes.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>XCOPY "$(TargetDir)ExamineTXT.exe" "$(SolutionDir)\TextAnalysisLauncher\bin\Release\Apps\ExamineTXT\" /Y
+XCOPY "$(TargetDir)UDE.dll" "$(SolutionDir)\TextAnalysisLauncher\bin\Release\Apps\ExamineTXT\"/Y</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
